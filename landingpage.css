@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+   
 }
 .video-background {
     position: fixed;
@@ -27,7 +29,7 @@ body {
     margin-right: 1em;
     text-decoration: none;
     font-size: 1.2em;
-    color: white;
+    color: rgb(207, 207, 207);
     font-weight: bolder;
     
 }
@@ -49,6 +51,10 @@ body {
 }
 #h4{
     margin-bottom: 5em;
+    font-size: 1em;
+}
+#h2{
+    font-size: 1.5em;
 }
 /*-----------------------------------------------------About section------------------------------------------------------------------------*/
 #container3{
@@ -57,10 +63,14 @@ body {
 #h5{
     text-align: center;
 }
+#h6{
+    margin-left:6.5em ;
+}
 #contentpara1{
     width: 20em;
     text-align: justify;
     padding: 1em;
+    margin-left: 7em;
 }
 #shreeya{
     float: right;
@@ -68,9 +78,10 @@ body {
     height:300px;
     width: 300px;
     border: 3px solid black;
+    margin-right: 12em;
 }
 #btngt{
-    margin-left: 0.8em;
+    margin-left: 7.5em;
     background-color: rgb(38, 74, 2);
     color:rgb(219, 247, 215) ;
     width: 5em;
@@ -110,6 +121,7 @@ body {
     padding: 1.5em;
     border-radius: 1em;
     text-align: center;
+    margin-left: 25em;
 }
 #booknow{
     background-color: rgb(38, 74, 2);
@@ -143,6 +155,7 @@ body {
     text-align: center;
     float: right;
     margin-top: -20.7em;
+    margin-right: 25em;
 }
 #ser{
     text-align: center;
@@ -166,6 +179,7 @@ input{
     width: 30em;
     height: 1.5em;
 }
+
 @media (max-width :600px){
         #links{
             margin-top: 0em;
@@ -181,6 +195,7 @@ input{
             text-align: justify;
             padding: 1em;
             font-size: 0.6em;
+            margin-left: 0em;
         }
         #h6{
             font-size: 0.5em;
@@ -188,18 +203,19 @@ input{
         }
         #shreeya{
             float: right;
-            margin-top: 7em;
-            height:90px;
-            width: 90px;
+            margin-top: 3em;
+            height:200px;
+            width: 190px;
             border-radius: 20%;
             box-shadow: 0 0 5px;
             border: 1px solid black;
+            margin-right: 1em;
         }
         #btngt{
             margin-left: 0.8em;
             background-color: rgb(38, 74, 2);
             color:rgb(219, 247, 215) ;
-            width: 7em;
+            width: 5em;
             padding: 0.5em;
             border-radius: 1em;
             font-size: 0.7em;
@@ -225,7 +241,7 @@ input{
             padding: 1.2em;
             border-radius: 1em;
             text-align: center;
-            margin-left: -1em;
+            margin-left: 2em;
             
         }
         #consultation2{
@@ -249,8 +265,8 @@ input{
             padding: 1.2em;
             border-radius: 1em;
             text-align: center;
-            margin-right: -1em;
-           margin-top: -17em;
+            margin-right: 2em;
+           margin-top: -15.6em;
         }
         #booknow{
             background-color: rgb(38, 74, 2);
