@@ -96,7 +96,7 @@ body {
 }
 /*--------------------------------------------------------services section--------------------------------------------------------------*/
 #services{
-    background-color: rgb(38, 74, 2);
+   background-color:rgb(38, 74, 2) ;
     padding: 2em;
 }
 
@@ -121,7 +121,7 @@ body {
     padding: 1.5em;
     border-radius: 1em;
     text-align: center;
-    margin-left: 25em;
+    margin-left: 15em;
 }
 #booknow{
     background-color: rgb(38, 74, 2);
@@ -155,7 +155,7 @@ body {
     text-align: center;
     float: right;
     margin-top: -20.7em;
-    margin-right: 25em;
+    margin-right: 15em;
 }
 #ser{
     text-align: center;
@@ -215,7 +215,7 @@ input{
             margin-left: 0.8em;
             background-color: rgb(38, 74, 2);
             color:rgb(219, 247, 215) ;
-            width: 5.9em;
+            width: 5em;
             padding: 0.5em;
             border-radius: 1em;
             font-size: 0.7em;
@@ -266,7 +266,7 @@ input{
             border-radius: 1em;
             text-align: center;
             margin-right: 0.8em;
-           margin-top: -16.2em;
+           margin-top: -15.6em;
         }
         #booknow{
             background-color: rgb(38, 74, 2);
