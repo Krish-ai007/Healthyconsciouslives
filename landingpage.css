@@ -2,9 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url('Homeimage.jpg') no-repeat center center fixed; /* Replace with your image path */
-    background-size: cover;
-    position: relative;
+   
 }
 .video-background {
     position: fixed;
@@ -146,7 +144,7 @@ body {
     border-radius: 1em;
     text-align: center;
     float: right;
-    margin-top: -15.6em;
+    margin-top: -20.7em;
 }
 #ser{
     text-align: center;
@@ -230,7 +228,7 @@ input{
             border-radius: 1em;
             text-align: center;
             margin-left: -1em;
-            display: block;
+            
         }
         #consultation2{
             width: 70px;
@@ -254,8 +252,7 @@ input{
             border-radius: 1em;
             text-align: center;
             margin-right: -1em;
-            margin-top: -15.6em;
-            display: bl;
+           margin-top: -15.6em;
         }
         #booknow{
             background-color: rgb(38, 74, 2);
