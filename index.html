@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="landingpage.css">
    
 </head>
-<body>
-    <img id="homeimg" src="Homeimage.jpg" alt="This is an image" style="display:none;"> 
+<body> 
     <div id="Container1">
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="food1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
         <div id="links">
         <a id="a1" href="#container2">About</a>
         <a id="a2" href="#container3">Services</a>
@@ -22,7 +27,7 @@
    <div id="subheading">
     <h3 id="h2">DT.SHREEYA ZAVERI</h3>
     <h5 id="h3">Dietitian,nutritionist and diabetes educator.</h5>
-    <h4 id="h4">(B.H.Sc.F.S.N & M.Sc.N.&D.)</h4>
+    <h4 style="margin-bottom: 9em;" id="h4">(B.H.Sc.F.S.N & M.Sc.N.&D.)</h4>
 </div>
 <section id="about">
     <div id="container3">
@@ -35,8 +40,37 @@
 </section>
 <section id="services">
     <div id="container4">
-         
+        <div id="ser"><h2>Services</h2></div><br>
+         <div id="service1">
+            <div id="img1"><img id="consultation1" src="one-to-one_consultation.webp" alt="This is an image"></div>
+            <h3 id="cns1">One-to-one consultation</h3>
+            <p id="cnt2">During these sessions,clients can discuss their unique challenges, receive evidence-based recomendations and develop customized meal plans.</p>
+            <div id="booknow">Book now</div>
+         </div>
+         <div  id="service2">
+            <div id="img2"><img id="consultation2" src="online_consultation.jpg" alt="This is an image"></div>
+            <h3 id="cns2">Online Consultation</h3>
+            <p id="cnt3">Receive personalized meal plans and gain valuable insights into healthy eating.This flexible approach makes it easier to fit nutrition support into busy schedules.</p>
+            <div id="booknow">Book now</div>
+         </div>
     </div>
 </section>
+<section id="container5">
+    <div id="subcon5">
+        <p id="contact">Contact</p><br>
+        <div id="cntbox">
+        <label for="name" id="name">Name :- </label><br><br>
+        <input style="background-color: rgb(219, 247, 215);color: rgb(38, 74, 2);border: 2px solid rgb(38, 74, 2);" type="text"><br><br>
+        <label for="email" id="email">E-mail :-</label><br><br>
+        <input style="background-color: rgb(219, 247, 215);color: rgb(38, 74, 2);border: 2px solid rgb(38, 74, 2);" type="email"><br><br>
+        <label for="message">Message :-</label><br><br>
+        <textarea style="background-color: rgb(219, 247, 215);color: rgb(38, 74, 2);border: 2px solid rgb(38, 74, 2);" type="text" id="message"></textarea><br><br>
+        <div id="submit"><button style="color:rgb(219, 247, 215);background-color:rgb(38, 74, 2) ;border: 1px solid;border-radius: 1em;" id="subbtn">Submit</button></div>
+        <div id="footer">
+            <p>© 2024 Shreeya zaveri. All rights reserved.</p>
+        </div>
+    </div>
+</section>
+</div>
 </body>
 </html>
