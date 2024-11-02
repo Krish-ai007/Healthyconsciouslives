@@ -46,7 +46,8 @@ body {
 #subheading{
     text-align: center;
     padding: 1em;
-    color: rgb(0, 0, 0);
+    color: rgb(9, 9, 9);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #about{
     background-color: rgba(219, 247, 215, 0.736);
