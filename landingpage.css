@@ -185,10 +185,10 @@ input{
 
 @media (max-width :600px){
         #links{
-            margin-top: 1em;
+            margin-top: 0em;
             font-size: 0.8em;
-            background-color: rgba(219, 247, 215, 0.359);
-            border-radius: 1em;
+            background-color: rgba(219, 247, 215, 0.808);
+            border-radius: 0.6em;
             padding: 1em;
         }
         #heading{
