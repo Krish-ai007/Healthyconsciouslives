@@ -41,12 +41,12 @@ body {
     font-weight: bold;
     margin-top: 2em;
     font-family:Bebas Neue;
-    color: rgb(0, 0, 0);
+   color: rgb(222, 249, 98);
 }
 #subheading{
     text-align: center;
     padding: 1em;
-    color: rgb(9, 9, 9);
+   color: rgb(222, 249, 98);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #about{
