@@ -1,11 +1,20 @@
-body {
+/* styles.css */
+
+* {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    background-color: rgb(207, 90, 6);
-    border: 2px solid black;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #f9f9f9;
+   
+}
 .video-background {
     position: fixed;
     top: 0;
@@ -14,8 +23,8 @@ body {
     height: 100%;
     overflow: hidden;
     z-index: -1; /* Ensures it stays behind other content */
-    filter: blur(40px); /* Adjust the blur intensity */;
-    }
+    filter: blur(10px); /* Adjust the blur intensity */
+}
 
 .video-background video {
     width: 100%;
@@ -23,298 +32,323 @@ body {
     object-fit: cover; /* Ensures it covers the entire area */
     opacity: 1; /* Keep full opacity for the video */
 }
-#links{
-    text-align: center;
-    margin-top: 2em; 
+header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.536);
+    padding: 10px 0;
 }
-#a1,#a2,#a3,#a4{
-    margin-right: 1em;
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#orgs{
+    text-align: center;
+    margin-top: -3em;
+    margin-bottom: 8em;
+}
+#getintouch{
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.4em;
+    margin-bottom: 6em;
+    background-color: black;
+    color: white;
+}
+#getintouch:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+}
+nav ul li a {
+    color: white;
     text-decoration: none;
-    font-size: 1.2em;
-    color: rgb(245, 231, 173);
-    font-weight: bolder;
-  
+    font-size: 16px;
+
 }
-#heading{
+
+main {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
     text-align: center;
-    font-size: 3em;
+}
+
+.intro h1 {
+    font-size: 2rem;
     font-weight: bold;
-    margin-top: 2em;
-    font-family:sans-serif;
-    color: rgb(245, 231, 173);
+    letter-spacing: 1px;
 }
-#subheading{
+
+.intro h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.intro p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.intro .qualifications {
+    font-weight: bold;
+}
+
+.info-card h3 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #000000af;
+    padding: 20px;
+    color: #f9f9f9;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.profile-image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid white;
+}
+
+.card h4 {
     text-align: center;
-    padding: 1em;
-    color: rgb(245, 231, 173);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
 }
-#about{
-   background-color: rgb(245, 231, 173);
-   box-shadow: 0 0 10px rgb(210, 127, 32);
-    
+
+.card p {
+    font-size: 0.95rem;
+    margin-top: 10px;
+    text-align: justify;
 }
-#h4{
-    margin-bottom: 5em;
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Services Section */
+.services {
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: #000000af;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.service-info h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.service-info p {
+    font-size: 0.9rem;
+    text-align:left;
+}
+.book-now {
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: bold;
     font-size: 1em;
-}
-#h2{
-    font-size: 1.5em;
-}
-/*-----------------------------------------------------About section------------------------------------------------------------------------*/
-#container3{
-    padding: 2em;
-}
-#h5{
-    text-align: center;
-    color:rgb(75, 44, 27) ; 
-
-}
-#h6{
-    margin-left:6.5em ;
-    color:rgb(75, 44, 27) ; 
-
-}
-#contentpara1{
-    width: 20em;
-    text-align: justify;
-    padding: 1em;
-    margin-left: 7em;
-   color:rgb(75, 44, 27) ; 
-}
-#shreeya{
-    float: right;
-    margin-top: 4em;
-    height:300px;
-    width: 300px;
-    border: 2px solid black;
-    margin-right: 12em;
-}
-#btngt{
-    margin-left: 7.5em;
-    background-color: rgb(75, 44, 27);
-    color:rgb(245, 231, 173) ;
-    width: 5em;
     padding: 0.5em;
+    text-decoration: none;
     border-radius: 1em;
-}
-#btngt:hover{
-    color: rgb(75, 44, 27);
-    background-color:rgb(245, 231, 173) ;
-    border: 1px solid rgb(75, 44, 27);
-         transition: 0.5s ease-in-out;
-}
-/*--------------------------------------------------------services section--------------------------------------------------------------*/
-#services{
-    background-color: rgba(207, 90, 6, 0);
-    padding: 2em;
-    box-shadow: 0 0 10px rgb(223, 102, 26);
-}
-
-#consultation1{
-    width: 110px;
-    height: 110px;
-}
-#img1{
-    text-align: center;
-}
-#cnt2{
-    text-align: justify;
-    font-size: 0.8em;
-}
-#cns1{
-    font-size: 0.9em;
-}
-#service1{
     width: 10em;
-    background-color: rgb(245, 231, 173);
-   color:rgb(75, 44, 27) ; 
-    padding: 1.5em;
-    border-radius: 1em;
-    text-align: center;
-    margin-left: 15em;
-    box-shadow: 0 0 10px rgb(245, 231, 173);
 }
-#booknow{
-    background-color: rgb(75, 44, 27);
-    color:rgb(245, 231, 173) ;
-    width: 5em;
-    padding: 0.5em;
-    border-radius: 1em;
-    margin-left:4em ;
-    font-size: 0.7em;
-}
-#booknow:hover{
-    color: rgb(75, 44, 27);
-    background-color:rgb(245, 231, 173) ;
-    border: 1px solid rgb(75, 44, 27);
-    transition: 0.5s ease-in-out;
-}
-#consultation2{
-    width: 110px;
-    height: 110px;
-}
-#img2{
-    text-align: center;
-}
-#cnt3{
-    text-align: justify;
-    font-size: 0.8em;
-}
-#cns2{
-    font-size: 0.9em;
-}
-#service2{
-    width: 10em;
-    background-color: rgb(245, 231, 173);
-   color:rgb(75, 44, 27) ; 
-    padding: 1.5em;
-    border-radius: 1em;
-    text-align: center;
-    float: right;
-    margin-top: -20.7em;
-    margin-right: 15em;
-    box-shadow: 0 0 10px rgb(245, 231, 173);
-}
-#ser{
-    text-align: center;
-    color: rgb(245, 231, 173);
-    
-}
-/*----------------------------------------------------------contact section----------------------------------------------------------------*/
-#container5{
-    background-color: rgb(245, 231, 173);
-    box-shadow: 0 0 10px rgb(247, 87, 0);
-    padding: 2em;
-}
-#contact{
-    text-align: center;
-    font-size: 1.5em;
+.book-now2 {
+    color: #000000;
+    background-color: #ffffff;
     font-weight: bold;
+    font-size: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+    border-radius: 1em;
+    width: 18em;
 }
-#footer{
-    font-size: 0.9em;
+/* Contact Section */
+.contact {
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    text-align: left;
+}
+.contact h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+label{
+    column-gap: 20px;
+    font-weight: bold;
 }
 input{
-    width: 30em;
-    height: 1.5em;
+    max-width: 400px;
+    width: 500px;
+    height: 30px;
+    background-color: #0000009f;
+    border: 1px solid black;
+    color: white;
+}
+textarea{
+    width: 500px;
+    max-width: 400px;
+    background-color: #000000a6;
+    color: white;
+}
+#submit{
+    width: 200px;
+    height: 2em;
+    padding: 0.5em;
+    justify-content: center;
+    border-radius: 1em;
+    border: 0px;
+    background-color:rgb(47, 47, 231) ;
+    color: white;
+}
+#submitbtn{
+    text-align: center;
+}
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .service-card {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .book-now {
+        align-self: flex-end;
+        margin-top: 10px;
+        width: 12em;
+        justify-content: center;
+    }
+    .book-now2 {
+        align-self: flex-end;
+        margin-top: 10px;
+        width: 22em;
+        font-size: 1em;
+        justify-content: center;
+    }
 }
 
-@media (max-width :600px){
-        #links{
-            margin-top: 0em;
-            font-size: 0.8em;
-           background-color: rgba(0, 0, 0, 0.159);
-            border-radius: 0.6em;
-            color: rgba(245, 231, 173, 0.197);
-            padding: 1em;
-        }
-        #heading{
-            font-size: 2.2em;
-            
-        }
-        #contentpara1{
-            width: 15em;
-            text-align: justify;
-            padding: 1em;
-            font-size: 0.6em;
-            margin-left: 0em;
-        }
-        #h6{
-            font-size: 0.5em;
-            margin-left: 1em;
-        }
-        #shreeya{
-            float: right;
-            margin-top: 3em;
-            height:170px;
-            width: 150px;
-            border-radius: 20%;
-            box-shadow: 0 0 7px rgb(230, 91, 41) ;
-            border: 2px solid rgb(75, 44, 27);
-            margin-right: 0em;
-        }
-        #btngt{
-            margin-left: 0.8em;
-            background-color: rgb(75, 44, 27);
-            color:rgb(245, 231, 173) ;
-            width: 6em;
-            padding: 0.5em;
-            border-radius: 1em;
-            font-size: 0.7em;
-        }
-        #btngt:hover{
-            color: rgb(75, 44, 27);
-            background-color:rgb(245, 204, 173) ;
-            border: 1px solid rgb(75, 44, 27);
-            transition: 0.5s ease-in-out;
-        }
-        #consultation1{
-            width: 70px;
-            height: 70px;
-        }
-        #img1{
-            text-align: center;
-        }
-        #cnt2{
-            text-align: justify;
-            font-size: 0.5em;
-        }
-        #cns1{
-            font-size: 0.7em;
-        }
-        #service1{
-            width: 6em;
-            background-color: rgb(245, 231, 173);
-            color:rgb(38, 74, 2);
-            padding: 1.2em;
-            border-radius: 1em;
-            text-align: center;
-            margin-left: 0.8em;
-            
-        }
-        #consultation2{
-            width: 70px;
-            height: 70px;
-        }
-        #img2{
-            text-align: center;
-        }
-        #cnt3{
-            text-align: justify;
-            font-size: 0.5em;
-        }
-        #cns2{
-            font-size: 0.7em;
-        }
-        #service2{
-            width: 6em;
-            background-color: rgb(245, 231, 173);
-            color:rgb(38, 74, 2);
-            padding: 1.2em;
-            border-radius: 1em;
-            text-align: center;
-            margin-right: 0.8em;
-           margin-top: -16.6em;
-        }
-        #booknow{
-            background-color: rgb(75, 44, 27);
-            color:rgb(245, 231, 173) ;
-            width: 5em;
-            padding: 0.5em;
-            border-radius: 1em;
-            margin-left:1.4em ;
-            font-size: 0.7em;
-            text-align: center;
-        }
-        #booknow:hover{
-            color: rgb(75, 44, 27);
-            background-color:rgb(245, 231, 173) ;
-            border: 1px solid rgb(75, 44, 27);
-            transition: 0.5s ease-in-out;
-        }
-        input{
-            width: 15em;
-            height: 1.em;
-        }
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .service-info h3 {
+        font-size: 1rem;
+    }
+
+    .service-info p {
+        font-size: 0.85rem;
+    }
+
+    .book-now {
+        font-size: 0.8em;
+    }
+    .book-now2{
+        font-size: 0.8em;
+    }
 }
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .intro h1 {
+        font-size: 1.8rem;
+    }
+
+    .intro h2 {
+        font-size: 1.4rem;
+    }
+
+    .intro p {
+        font-size: 0.9rem;
+    }
+
+    .info-card h3 {
+        font-size: 1.4rem;
+    }
+
+    .card h4 {
+        font-size: 1.1rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .intro h1 {
+        font-size: 1.6rem;
+    }
+
+    .intro h2 {
+        font-size: 1.2rem;
+    }
+
+    .intro p {
+        font-size: 0.8rem;
+    }
+
+    .info-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .card h4 {
+        font-size: 1rem;
+    }
+
+    .card p {
+        font-size: 0.85rem;
+    }
+}
+
+
